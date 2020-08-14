@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--blue);
+    width: 100%;
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+
+.logo-icon {
+    height: 90%;
+}
+
+.logo-icon .logo {
+    height: 100%;
+}
+
+.navbar {
+    height: 40px;
+    padding: 10px 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 4px 23px -3px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 0px 4px 23px -3px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 4px 23px -3px rgba(0, 0, 0, 0.33);
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        padding: 10px 40px;
+    }
+}
